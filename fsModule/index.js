@@ -3,6 +3,18 @@ var http = require('http')
 
 var server = http.createServer(function (request, response) {
     if (request.url == '/') {
+        // sync delete 
+        // fs.unlinkSync
+
+        // async delete 
+        // fs.unlink 
+
+        // sync exists 
+        // fs.existsSync
+
+        // async exists
+        // fs.exists 
+
         // async rename 
         // fs.rename('demo.txt', 'demoNew.txt', function (error) {
         //     if (error) {
